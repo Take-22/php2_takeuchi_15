@@ -1,0 +1,74 @@
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 6px 0;
+}
+h2{
+    font-size: 22px;
+}
+
+/* _____________________________________ */
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+header{
+    font-size: 28px;
+    padding: 18px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.flex-itme:last-child{
+    padding-top: 12px;
+    position: absolute;
+    right: 2%;
+}
+#today{
+    font-size: 18px;
+}
+
+.cover{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 ;
+}
+
+.tableBorder1 {
+    border-collapse: collapse;
+}
+
+.tableBorder1,
+.tableBorder1 td,
+.tableBorder1 th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.tableBorder1 td,
+.tableBorder1 th {
+    text-align: center;
+}
+
+.tbltd {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.zaseki{
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 100px;
+    height: 60px;
+    background-color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.zaseki.color空 {
+    background-color: white;
+}
